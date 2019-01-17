@@ -52,10 +52,25 @@ h3 {
   left: 200px;
 }
 
-.illustrator {
-  padding-left: 50px;
+.creative-cloud {
+  width: 20%;
+  float: right;
+  padding-left: 30px;
+}
+
+.browser {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
 }
 
 .developer {
   font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  text-align: left;
+  margin: 100px auto 100px auto;
+  line-height: 2;
 }
