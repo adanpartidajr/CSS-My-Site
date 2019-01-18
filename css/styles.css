@@ -24,44 +24,78 @@ h3 {
 
 .top-container {
   background-color: #ffcccc;
-
-}
-
-.middle-container {
-  background-color: #ffcccc;
+  padding-top: 50px;
+  padding-bottom: 30px
 }
 
 .bottom-container {
   background-color: #ffcccc;
   color: #ff0000;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.linkedin-link {
+  width: 10%;
+  transition: transform .2s;
+}
+
+.linkedin-link:hover {
+  transform: scale(1.25);
+}
+
+.github-link {
+  width: 10%;
+  padding-left: 30px;
+  transition: transform .2s;
+}
+
+.github-link:hover {
+  transform: scale(1.25);
+}
+
+.copyright {
+  padding-top: 30px;
+}
+
+.btn {
+  padding-top: 30px;
 }
 
 .dev {
   text-decoration: underline;
 }
 
-.bottom-cloud {
-  position: absolute;
-  top: 210px;
-  left: 380px;
+.cityscape {
+  height: 50%;
+  padding-top: 30px;
+  padding-bottom: 0;
 }
 
-.top-cloud {
-  position: relative;
-  top: 40px;
-  left: 200px;
+hr {
+  width: 30%;
 }
 
 .creative-cloud {
   width: 20%;
   float: right;
   padding-left: 30px;
+  transition: transform .2s;
+}
+
+.creative-cloud:hover {
+  transform: scale(1.25);
 }
 
 .browser {
   width: 20%;
   float: left;
   margin-right: 30px;
+  transition: transform .2s;
+}
+
+.browser:hover {
+  transform: scale(1.25);
 }
 
 .developer {
@@ -73,4 +107,22 @@ h3 {
   text-align: left;
   margin: 100px auto 100px auto;
   line-height: 2;
+}
+
+.profile {
+  padding-top: 30px;
+}
+
+.contact-me {
+  padding-bottom: 30px;
+  line-height: 2;
+}
+
+.phone-book {
+  width: 10%;
+  transition: transform .2s;
+}
+
+.phone-book:hover {
+  transform: scale(1.25);
 }
